@@ -5,14 +5,14 @@ Ce répertoire de travail utilise un sous-module pour les données qui ne sont p
 
 ## Cloner le répertoire :
 
-````bash
+```bash
 git clone --recursive https://github.com/ouvroir/stats.git`
 ```
 
 ## Mettre à jour le répertoire et ses sous-modules
 
 ```bash
-git pull --recurse-submodules`
+git pull --recurse-submodules
 ```
 
 ## Mettre à jour le HEAD du sous-module
@@ -22,7 +22,7 @@ git submodule update --rebase --remote
 ```
 ## Ajout d’un sous-module :
 
-````bash
+```bash
 git submodule add https://github.com/path/submodule.git src/_name
 git submodule update --init --recursive
 ```
